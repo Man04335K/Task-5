@@ -103,7 +103,7 @@ namespace CalculatingGrades
             // Keep asking until a valid input is entered
             while (!int.TryParse(Console.ReadLine(), out marks) || marks < 0 || marks > 100)
             {
-                Console.Write("Invalid input! Please enter a number between 0 and 100: "); // Prompt for valid input
+                Console.Write("Invalid input! Can you please enter a number between 0 and 100: "); // Prompt for valid input
             }
             return marks; // Return the valid marks
         }
